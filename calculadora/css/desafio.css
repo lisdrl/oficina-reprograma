@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #D8BFD8;
+  font-family: "Abel", "Lato", sans-serif;
+  font-size: 22px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.autoria {
+  margin-top: 10px;
+}
+
+img {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px 25px;
+  margin-bottom: 35px;
+}
+
+input {
+  width: 200px;
+  height: 18px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.valorHora {
+  margin-bottom: 10px;
+}
+
+.horasProjeto{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.valorCobrado {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+#resposta {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 200px;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.43px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #faf6f6;
+  margin-bottom: 70px;
+}
+
+#botaoVoltar {
+  margin-bottom: 12px;
+}
+

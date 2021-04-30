@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lisandre Darioli - Desafio</title>
+    <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+  </head>
+  <body>
+    <h1>Calculadora de Projetos</h1>
+    <p class="autoria">Por Lisandre Darioli</p>
+    <img
+      src="https://image.freepik.com/vetores-gratis/mulher-negra-sentada-com-o-laptop-no-fundo-da-natureza-freelance-estudar-online-trabalhar-a-partir-do-conceito-de-casa-ilustracao-em-estilo-simples_254685-12.jpg"
+      alt="Desenho de mulher negra de cabelo volumoso sorrindo com um notebook no colo. Fundo de natureza em branco e verde."
+    />
+    <label class="valorHora" for="valor-hora">Quanto você cobra por hora trabalhada?</label>
+    <input type="number" id="valor-hora" />
+
+    <label class="horasProjeto" for="horas-projeto">Quantas horas trabalhará neste projeto?</label>
+    <input type="number" id="horas-projeto" />
+
+    <p class="valorCobrado"> Valor a ser cobrado:</p>
+
+    <span id="resposta"> R$ 00,00 </span>
+    <button onclick="calcular()">Calcular Projeto</button>
+
+    <a id="botaoVoltar" href="index.html">Voltar</a>
+
+    <script type="text/javascript" src="js/desafio.js"></script>
+  </body>
+</html>
